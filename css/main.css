@@ -48,7 +48,7 @@ h1 {
   color: #3c2415;
 }
 
-.top {
+section {
   display: grid;
   width: 100%;
   grid-template-rows: 1fr;
@@ -82,6 +82,7 @@ article {
 .nav-logo {
   height: 5rem;
   padding-top: 1.5rem;
+  margin-bottom: -2rem;
   text-align: left;
 }
 
@@ -91,7 +92,7 @@ ul {
   text-align: center;
 }
 
-.nav {
+nav {
   padding: .3em;
   padding-top: .7em;
   padding-bottom: .5em;
@@ -124,4 +125,19 @@ header li:hover, a:hover {
 
 .current {
   color: #D71932;
+}
+
+.banner {
+  display: inline-block;
+  text-align: center;
+}
+
+.banner img {
+  width: 50rem;
+}
+
+.banner p {
+  width: 20rem;
+  text-align: center;
+  margin: auto;
 }
