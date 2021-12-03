@@ -23,3 +23,105 @@ body {
   width: 100%;
   margin: 0;
 }
+
+header {
+  background-color: #FFB49D;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .2rem .5rem;
+}
+
+h1 {
+  font-family: "Manofa", medium;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: .5em;
+  padding-bottom: .3em;
+  margin: 0;
+  color: #3c2415;
+}
+
+.top {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.button1 {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
+  text-align: right;
+  padding-top: 1.3rem;
+}
+
+.button1 a {
+  width: 50%;
+  padding: .3rem 1rem;
+  text-decoration: none;
+  color: #000000;
+  background-color: #D71932;
+  border-radius: 8px;
+}
+
+.nav-logo {
+  height: 5rem;
+  padding-top: 1.5rem;
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav {
+  padding: .3em;
+  padding-top: .7em;
+  padding-bottom: .5em;
+  font-size: .7em;
+  text-align: left;
+  width: 100%;
+}
+
+header li {
+  padding: .3em;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+  font-size: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+  color: #000000;
+}
+
+header li:hover, a:hover {
+  color: #D71932;
+}
+
+.current {
+  color: #D71932;
+}
