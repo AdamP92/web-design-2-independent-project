@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background-color: #FFB49D;
+  background-color: #fdd9cc;
   text-align: center;
 }
 
@@ -39,13 +39,20 @@ header {
 h1 {
   font-family: "Manofa", medium;
   font-size: 2rem;
+  line-height: 2rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: .5em;
   padding-bottom: .3em;
   margin: 0;
-  color: #3c2415;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Manofa", medium;
+  font-size: 3rem;
+  margin: auto;
 }
 
 section {
@@ -75,7 +82,7 @@ article {
   padding: .3rem 1rem;
   text-decoration: none;
   color: #000000;
-  background-color: #D71932;
+  background-color: #d71932;
   border-radius: 8px;
 }
 
@@ -113,6 +120,7 @@ header li {
 }
 
 header nav a {
+  font-family: "Manofa", regular;
   text-decoration: none;
   list-style-type: none;
   display: block;
@@ -120,16 +128,11 @@ header nav a {
 }
 
 header li:hover, a:hover {
-  color: #D71932;
+  color: #d71932;
 }
 
 .current {
-  color: #D71932;
-}
-
-.banner {
-  display: inline-block;
-  text-align: center;
+  color: #d71932;
 }
 
 .banner img {
@@ -140,4 +143,20 @@ header li:hover, a:hover {
   width: 20rem;
   text-align: center;
   margin: auto;
+}
+
+.button1 a:hover {
+  color: #fdd9cc;
+}
+
+.banner {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 6rem;
+  width: 100%;
 }
