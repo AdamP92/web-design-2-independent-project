@@ -28,9 +28,6 @@ body {
 header {
   background-color: #fdd9cc;
   text-align: center;
-}
-
-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +35,7 @@ header {
 }
 
 h1 {
-  font-family: "Manofa", medium;
+  font-family: Manofa, medium;
   font-size: 2rem;
   line-height: 2rem;
   display: flex;
@@ -47,11 +44,11 @@ h1 {
   padding: .5em;
   padding-bottom: .3em;
   margin: 0;
-  color: #000000;
+  color: #000;
 }
 
 h2 {
-  font-family: "Manofa", medium;
+  font-family: Manofa, medium;
   font-size: 3.5rem;
   margin: auto;
 }
@@ -71,7 +68,6 @@ article {
 }
 
 .button1 {
-  padding-top: 1rem;
   padding-right: 1rem;
   display: inline-block;
   text-align: right;
@@ -82,8 +78,8 @@ article {
   width: 50%;
   padding: .3rem .8rem;
   text-decoration: none;
-  color: #000000;
-  font-family: "Arial", regular;
+  color: #000;
+  font-family: Arial, regular;
   background-color: #d71932;
   border-radius: 8px;
 }
@@ -115,18 +111,17 @@ header li {
   margin: 0;
   display: inline-block;
   list-style-type: none;
-  display: inline-block;
   text-align: center;
   width: 15%;
   font-size: 1rem;
 }
 
 header nav a {
-  font-family: "Manofa", regular;
+  font-family: Manofa, regular;
   text-decoration: none;
   list-style-type: none;
   display: block;
-  color: #000000;
+  color: #000;
 }
 
 header li:hover, a:hover {
@@ -146,7 +141,7 @@ header li:hover, a:hover {
   width: 45%;
   text-align: center;
   margin: auto;
-  font-family: "Arial", regular;
+  font-family: Arial, regular;
   padding-top: .5rem;
 }
 
@@ -167,7 +162,6 @@ header li:hover, a:hover {
 }
 
 .button2 {
-  padding-top: 1rem;
   padding-right: 1rem;
   display: inline-block;
   text-align: right;
@@ -178,9 +172,9 @@ header li:hover, a:hover {
 .button2 a {
   width: 100%;
   padding: .5rem 1rem;
-  font-family: "Arial", regular;
+  font-family: Arial, regular;
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 1.5rem;
   background-color: #d71932;
   border-radius: 8px;
@@ -216,7 +210,7 @@ header li:hover, a:hover {
 
 }
 h3 {
-  font-family: "Manofa", medium;
+  font-family: Manofa, medium;
   font-size: 2rem;
   text-align: center;
   vertical-align: top;
@@ -243,9 +237,6 @@ h3 {
 footer {
   background-color: #fdd9cc;
   text-align: center;
-}
-
-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,18 +248,17 @@ footer li {
   margin: 0;
   display: inline-block;
   list-style-type: none;
-  display: inline-block;
   text-align: center;
   width: 15%;
   font-size: 1rem;
 }
 
 footer nav a {
-  font-family: "Manofa", regular;
+  font-family: Manofa, regular;
   text-decoration: none;
   list-style-type: none;
   display: block;
-  color: #000000;
+  color: #000;
 }
 
 footer li:hover, a:hover {
@@ -331,7 +321,7 @@ footer li:hover, a:hover {
   font-size: 1.2rem;
   text-align: center;
   margin: auto;
-  font-family: "Arial", regular;
+  font-family: Arial, regular;
   padding-top: .5rem;
 }
 
@@ -351,7 +341,7 @@ footer li:hover, a:hover {
   border: 2px red solid;
   border-radius: 12px;
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .shirts {
@@ -377,18 +367,27 @@ footer li:hover, a:hover {
 }
 
 h4 {
-  font-family: "Manofa", regular;
+  font-family: Manofa, regular;
   font-size: 1.5rem;
   text-decoration: none;
   list-style-type: none;
-  color: #000000;
+  color: #000;
+}
+
+h5 {
+  font-family: Manofa, regular;
+  font-size: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
 }
 
 .product p {
-  font-family: "Manofa", regular;
+  font-family: Manofa, regular;
   text-decoration: none;
   list-style-type: none;
-  color: #000000;
+  color: #000;
   text-align: right;
 }
 
@@ -423,7 +422,7 @@ h4 {
   border: 2px red solid;
   border-radius: 12px;
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .clothe-card:hover {
