@@ -423,3 +423,11 @@ h4 {
   padding: 1rem;
   background-color: #ffffff;
 }
+
+.clothe-card:hover {
+  background-color: #fdd9cc;
+}
+
+.img-flex {
+  border-radius: 12px;
+}
