@@ -397,3 +397,29 @@ h4 {
   width: 50%;
   margin-bottom: 1.5rem;
 }
+
+.activewear {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  margin-top: .5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.clothe-link {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.clothe-card {
+  border: 2px red solid;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #ffffff;
+}
